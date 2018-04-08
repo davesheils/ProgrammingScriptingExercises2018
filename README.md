@@ -3,7 +3,7 @@ Exercises submitted by David Sheils for the Programming and Scripting Module, HD
 
 
 ## How to run these scripts
-These scripts are written in Python. Users will need to have installed Python 3.6 on their machines. For these particilar scripts, no specialised packages (e.g NumPy) are required.
+These scripts are written in Python. Users will need to have installed Python 3.6 on their machines. For these particular scripts, no specialised packages (e.g NumPy) are required.
 
 ## Exercises and script files
 
@@ -40,3 +40,12 @@ To run this program, the user should create a sub-directory called Data in their
 
 
 #### Exercise 6
+
+Students were required to write a Python script containing a function called factorial() that takes a single input/argument which is a positive integer and returns its factorial. The factorial of a number is that number multiplied by all of the positive numbers less than it. For example, the factorial of 5 is 5x4x3x2x1 which equals 120. Students were requried to test the function by calling it with the values 5, 7, and 10. The response to Exercise 6 is https://github.com/davesheils/ProgrammingScriptingExercises2018/blob/master/Exercise6.py
+
+
+
+
+
+
+
