@@ -18,21 +18,26 @@
 
 with open('data/iris.csv') as f:
     for line in f:
+        # The following lines correct a recurring error occurring in
+        # earlier versions of this script - comments below        
+        line = f.readline()
+        if not line:
+            break 
         sepalLength = line.split(',')[0]
         sepalWidth = line.split(',')[1]
         petalLength = line.split(',')[2]
         petalWidth = line.split(',')[3]
-        # The following works, because all data is in the format 1.1.
-        print(sepalLength," ",sepalWidth," ",petalLength," ",petalWidth)
-        # print('{0:2d} {1:3d} {2:4d}'.format(sepalLengthf,sepalWidth,petalLength)) this only works with numerical values
+        print("{} {} {} {}".format(sepalLength,sepalWidth,petalLength,petalWidth))
 
-# Also, getting the following error:
+
+
+
+# earlier (since overwritten) attempts at this exercise worked, but 
+# produced the following error:
 # Traceback (most recent call last):
 # File "exercise5.py", line 22, in <module>
 #    sepalWidth = line.split(',')[1]
 # IndexError: list index out of range
 # 
-# Looks like I need to tell the program that we have reached the end of file.
-# Not sure why this should be the case
-# Might need to review the video .. I may not have been paying attention ...
+# The final version adds a test to see if there is an line, and exits otherwise.
 #         
