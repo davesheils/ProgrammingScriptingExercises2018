@@ -36,16 +36,12 @@ Note: We were required to use for and range to solve Euler 5. This program perfo
 
 Students were required to write Python script that reads the Iris data set in and print the four numerical values on each row in a nice format. That is, on the screen should be printed the petal length, petal width, sepal length and sepal width, and these values should have the decimal places aligned, with a space between the columns.
 
-To run this program, the user should create a sub-directory called Data in their working directory. They should download the Iris dataset (http://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data) and store in the Data sub-directory. 
+To run this program, the user should create a sub-directory called Data in their working directory. They should download the Iris dataset (http://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data) and store in the Data sub-directory, renamed as iris.csv (alternatively, edit line 19 to refer to 'data/iris.data').
+
+The file to complete Exercise5 is: https://github.com/davesheils/ProgrammingScriptingExercises2018/blob/master/Exercise5.py
 
 
 #### Exercise 6
 
 Students were required to write a Python script containing a function called factorial() that takes a single input/argument which is a positive integer and returns its factorial. The factorial of a number is that number multiplied by all of the positive numbers less than it. For example, the factorial of 5 is 5x4x3x2x1 which equals 120. Students were requried to test the function by calling it with the values 5, 7, and 10. The response to Exercise 6 is https://github.com/davesheils/ProgrammingScriptingExercises2018/blob/master/Exercise6.py
-
-
-
-
-
-
 
